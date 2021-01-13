@@ -7,6 +7,6 @@ Projeto baseado em trazer uma lista de países de uma API pública e incluir fun
 
 ![favorite country](https://github.com/ItaloFalzoni/favorite-country/blob/main/assets/favorite-country-preview-2.PNG)
 
-Link da documentação da API: https://randomuser.me/
+Link da documentação da API: https://restcountries.eu/
 
 Este prejeto foi desenvolvido junto com o curso Desenvolvimento Full Stack do IGTI 2020.
