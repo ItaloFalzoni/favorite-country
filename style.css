@@ -1,0 +1,104 @@
+#content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.list {
+  text-align: left;
+  width: 50%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.subtitle {
+  font-size: 17px;
+  font-style: italic;
+  color: #1a1a1a
+}
+
+#content .card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+
+  padding: 10px;
+
+  min-height: 100px;
+  max-width: 400px;
+
+  background-color: #f2f2f2;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#content .card .row {
+  display: flex;
+  flex-direction: row;
+}
+
+#content .card .row .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+#content .card .row .left .name {
+  margin-left: 10px;
+}
+
+#content .card .row .right {
+  font-weight: bold;
+}
+
+#content .card .row .button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f2f2f2;
+  transition: background-color 0.2s
+}
+
+#content .default .button {
+  background-color: #0c0;
+}
+
+#content .default .button:hover {
+  background-color: #090;
+}
+
+#content .default .button::before {
+  content: '+';
+}
+
+#content .favorite .button {
+  background-color: #c00;
+}
+
+#content .favorite .button:hover {
+  background-color: #900;
+}
+
+#content .favorite .button::before {
+  content: '-';
+}
+
+
+#content .card .img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
